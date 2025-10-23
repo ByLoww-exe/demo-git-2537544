@@ -4,8 +4,36 @@ h1 {
 
 h2 {
     text-align: center;
+    text-decoration: underline;
+    color: gray;
 }
 
 h3 {
     text-align: center;
 }
+
+h4 {
+    
+}
+
+.pages {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 20px 20px 20px 20px
+}
+
+.secondaryPages {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.sections {
+    color: black;
+}
+
+.types {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    text-align: center;
+}
+
